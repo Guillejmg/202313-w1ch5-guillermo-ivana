@@ -22,11 +22,16 @@ header{
     padding: 3rem;
   
     h2{
-      display: flex;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 3rem;
     text-align: center;
+    }
+    p{
+      font-family: 'Mulish', sans-serif;
+      text-align: center;
     }
     nav{
       margin: 2rem;
