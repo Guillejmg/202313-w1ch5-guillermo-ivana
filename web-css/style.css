@@ -14,6 +14,9 @@ header {
   align-items: center;
   height: 50px;
 }
+header nav {
+  display: none;
+}
 
 h2 {
   font-family: "Poppins", sans-serif;
@@ -69,6 +72,9 @@ p {
 }
 .section1 nav ul li button span {
   padding-inline-start: 4px;
+}
+.section1 nav ul .div-li {
+  display: none;
 }
 .section1 img {
   width: 100%;
@@ -183,5 +189,64 @@ p {
   background-color: #fff;
 }
 .section4 article img {
-  clip-path: circle(50% at 50% 50%);
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+@media (width > 450px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  header nav {
+    display: flex;
+  }
+  header nav ul {
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+  }
+  header nav ul li {
+    display: flex;
+    background-color: #E5F4F2;
+    padding: 16px 50px;
+    border-radius: 20px;
+    color: #009379;
+    border: #E5F4F2;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav ul li button {
+    display: flex;
+    background-color: #009379;
+    padding: 16px 50px;
+    border-radius: 20px;
+    color: #E5F4F2;
+    border: #009379;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    gap: 30px;
+  }
+  nav ul .div-li {
+    display: initial;
+    font-family: "Poppins", sans-serif;
+    background-color: #E5F4F2;
+    padding: 16px 50px;
+    border-radius: 20px;
+    color: #009379;
+    border: #009379 solid 1px;
+  }
 }/*# sourceMappingURL=style.css.map */
