@@ -5,10 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-img {
-  width: 100%;
+  background-color: #f8f9ff;
 }
 
 header {
@@ -17,16 +14,42 @@ header {
   align-items: center;
   height: 50px;
 }
-header img {
-  height: 20px;
-  width: auto;
-}
 
 .section1 {
-  display: block;
-  gap: 4rem;
+  padding: 3rem;
 }
-.section1 header {
-  display: block;
-  gap: 4rem;
+.section1 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+}
+.section1 nav {
+  margin: 2rem;
+}
+.section1 nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+}
+.section1 nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 nav ul li button {
+  display: flex;
+  background-color: #009379;
+  padding: 16px 50px;
+  border-radius: 20px;
+  color: #f8f9ff;
+  border: #009379;
+  justify-content: center;
+  align-items: center;
+}
+.section1 nav ul li button span {
+  padding-inline-start: 4px;
 }/*# sourceMappingURL=style.css.map */

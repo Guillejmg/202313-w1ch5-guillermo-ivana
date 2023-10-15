@@ -5,12 +5,8 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #f8f9ff;
 }
-
-img {
-  width: 100%;
-}
-
 
 
 
@@ -19,19 +15,52 @@ header{
     justify-content: center;
     align-items: center;
     height: 50px;
-    img{
-      height: 20px;
-      width: auto;
-    }
-  }
-  .section1{
-    display:block;
-
-    gap: 4rem;
-    header{
-      display: block;
-      gap: 4rem;
-      
-    }
+    
   }
 
+.section1{
+    padding: 3rem;
+  
+    h2{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+    }
+    nav{
+      margin: 2rem;
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+        li{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          button{
+            display: flex;
+            background-color: #009379;
+            padding: 16px 50px;
+            border-radius: 20px;
+            color: #f8f9ff;
+            border: #009379;
+          
+            justify-content: center;
+            align-items: center;    
+          span{
+            
+            padding-inline-start: 4px;
+            
+          }
+          }
+        }
+        
+            
+    
+          
+        } 
+      }
+    }
